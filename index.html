@@ -33,10 +33,23 @@
             <li><a href="#">Contact</a></li>
             <li><i class="fa fa-search"></i></li>
             <li><button class="primary-btn">Book Now</button></li>
-            <li><i class="fa fa-bars"></i></li>
           </ul>
+          <span class="fa fa-bars" onclick="menutoggle()"></span>
         </div>
       </div>
     </header>
+
+    <script>
+      var menulist = document.getElementById(`menulist`);
+      menulist.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (menulist.style.maxHeight == "0px") {
+          menulist.style.maxHeight = "100vh";
+        } else {
+          menulist.style.maxHeight = "0px";
+        }
+      }
+    </script>
   </body>
 </html>
