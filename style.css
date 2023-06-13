@@ -52,6 +52,7 @@ button {
   margin: auto;
 }
 
+/*------header------*/
 header {
   height: 10vh;
   line-height: 10vh;
@@ -129,7 +130,9 @@ header .navlinks span {
     font-size: 25px;
   }
 }
+/*------header------*/
 
+/*------home------*/
 .home {
   height: 100vh;
   color: #ffffff;
@@ -178,3 +181,135 @@ header .navlinks span {
 .owl-nav .owl-next {
   right: 0;
 }
+/*------home------*/
+
+/*------book------*/
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+
+input {
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+.book {
+  padding: 40px 0;
+  background: #282834;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: Poppins;
+}
+
+.book h2 {
+  font-size: 28px;
+  line-height: 1;
+}
+
+.book h2 span {
+  color: #5585b5;
+}
+
+.book input {
+  padding: 20px;
+}
+
+.book input:nth-last-child(1) {
+  background: #5585b5;
+  color: #ffffff;
+}
+/*------book------*/
+
+/*------about------*/
+.left,
+.right {
+  width: 50%;
+  padding: 30px;
+}
+
+.top {
+  margin-top: 80px;
+}
+
+.mtop {
+  margin-top: 20px;
+}
+
+.heading h2 {
+  font-size: 100px;
+  font-weight: 500;
+  opacity: 0.1;
+  font-family: Poppins;
+  position: absolute;
+  top: -30px;
+}
+
+.heading h3 {
+  margin: 30px 0;
+  font-size: 45px;
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+.about .heading h2 {
+  top: 55px;
+}
+
+.about {
+  position: relative;
+}
+
+.about .left {
+  margin-top: 30px;
+}
+
+.about .p {
+  font-size: 15px;
+}
+
+.about button {
+  margin: 30px 0;
+}
+
+.about img {
+  width: 100%;
+  margin-top: 90px;
+}
+
+/*------about------*/
+
+/*------counter------*/
+.counter {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/background-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  width: 100%;
+  color: #ffffff;
+}
+
+.counter .grid {
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  place-items: center;
+  padding-top: 60px;
+}
+
+.counter h2 {
+  font-size: 50px;
+}
+
+.counter hr {
+  width: 50%;
+  margin: 5px auto;
+  background: #5585b5;
+  height: 2px;
+  border: none;
+}
+/*------counter------*/
