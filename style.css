@@ -313,3 +313,73 @@ h2 {
   border: none;
 }
 /*------counter------*/
+
+/*------rooms------*/
+.rooms {
+  position: relative;
+}
+
+.rooms .text {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: none;
+  padding: 30px;
+}
+
+.rooms i {
+  font-size: 12px;
+  color: #bbe4e9;
+  margin: 15px 0;
+  margin-right: 5px;
+}
+
+.rooms p {
+  margin: 20px 0;
+  opacity: 0.7;
+}
+
+.rooms .rate {
+  font-size: 30px;
+  line-height: 20px;
+  margin-left: 20px;
+  font-weight: 500;
+  color: #5585b5;
+}
+
+.rooms h3 span {
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.rooms h3 {
+  top: 55px;
+}
+
+.rooms img {
+  width: 150px;
+  height: 200px;
+}
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+  position: absolute;
+  top: -20%;
+  height: 50px;
+  width: 50px;
+  background: #5585b5 !important;
+}
+
+.owl-nav .owl-prev i,
+.owl-nav .owl-next i {
+  color: #ffffff;
+}
+
+.owl-nav .owl-prev {
+  left: 88%;
+}
+
+.owl-nav .owl-next {
+  right: 0;
+}
+
+/*------rooms------*/
