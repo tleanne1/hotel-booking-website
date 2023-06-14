@@ -514,3 +514,72 @@ h2 {
   color: #ffffff;
 }
 /*------services------*/
+
+/*------customer------*/
+.customer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(images/background-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+}
+
+.customer .container {
+  max-width: 70%;
+}
+
+.customer .item {
+  padding: 10% 0;
+}
+
+.customer i {
+  width: 100px;
+  height: 100px;
+  background: rgba(85, 133, 181);
+  opacity: 0.7;
+  line-height: 100px;
+  border-radius: 50%;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.customer p {
+  line-height: 25px;
+}
+
+.customer h3 {
+  margin-top: 25px;
+  color: #5585b5;
+}
+
+.customer span {
+  font-size: 15px;
+}
+
+.owl-carousel2 .owl-dots {
+  position: absolute;
+  bottom: 60px;
+  left: 46.6%;
+}
+
+.owl-carousel2 .owl-dots i {
+  color: #5585b5;
+}
+
+.owl-carousel2 .owl-dots i:hover button {
+  color: #5585b5 !important;
+}
+
+.owl-carousel2 span {
+  border: 2px solid #ffffff;
+  background: transparent !important;
+}
+
+.owl-carousel2 .active span {
+  background: #5585b5 !important;
+  border: 2px solid #ffffff;
+}
+/*------customer------*/
