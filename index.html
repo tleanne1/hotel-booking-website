@@ -400,5 +400,113 @@
         },
       });
     </script>
+
+    <section class="gallery">
+      <div class="container top">
+        <div class="heading">
+          <h2>PHOTOS</h2>
+          <h3>Our Gallery</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+
+      <div class="content mtop">
+        <div class="owl-carousel owl-carousel1 owl-theme">
+          <div class="items">
+            <div class="img">
+              <img src="images/gallery-1.jpg" alt="" />
+            </div>
+            <div class="overlay">
+              <span class="fa fa-plus"> </span>
+              <h3>Photo Title Here.</h3>
+            </div>
+          </div>
+          <div class="items">
+            <div class="img">
+              <img src="images/gallery-2.jpg" alt="" />
+            </div>
+            <div class="overlay">
+              <span class="fa fa-plus"> </span>
+              <h3>Photo Title Here.</h3>
+            </div>
+          </div>
+          <div class="items">
+            <div class="img">
+              <img src="images/gallery-3.jpg" alt="" />
+            </div>
+            <div class="overlay">
+              <span class="fa fa-plus"> </span>
+              <h3>Photo Title Here.</h3>
+            </div>
+          </div>
+          <div class="items">
+            <div class="img">
+              <img src="images/gallery-4.jpg" alt="" />
+            </div>
+            <div class="overlay">
+              <span class="fa fa-plus"> </span>
+              <h3>Photo Title Here.</h3>
+            </div>
+          </div>
+          <div class="items">
+            <div class="img">
+              <img src="images/gallery-5.jpg" alt="" />
+            </div>
+            <div class="overlay">
+              <span class="fa fa-plus"> </span>
+              <h3>Photo Title Here.</h3>
+            </div>
+          </div>
+          <div class="items">
+            <div class="img">
+              <img src="images/gallery-6.png" alt="" />
+            </div>
+            <div class="overlay">
+              <span class="fa fa-plus"> </span>
+              <h3>Photo Title Here.</h3>
+            </div>
+          </div>
+          <div class="items">
+            <div class="img">
+              <img src="images/gallery-7.jpg" alt="" />
+            </div>
+            <div class="overlay">
+              <span class="fa fa-plus"> </span>
+              <h3>Photo Title Here.</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      $(`.owl-carousel`).owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: true,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 1000,
+        autoplayHoverPause: true,
+        navText: [
+          "<i class='fa fa-chevron-left'></i>",
+          "<i class='fa fa-chevron-right'></i>",
+        ],
+        responsive: {
+          0: {
+            items: 1,
+          },
+          768: {
+            items: 4,
+          },
+          1000: {
+            items: 6,
+          },
+        },
+      });
+    </script>
   </body>
 </html>
