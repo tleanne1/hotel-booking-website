@@ -47,6 +47,14 @@ button {
   border: 2px solid #5585b5;
 }
 
+.subscribe-btn {
+  margin: 0px 10px;
+  padding: 15px 40px;
+  background: #ffffff;
+  font-weight: bold;
+  color: #5585b5;
+}
+
 .container {
   max-width: 85%;
   margin: auto;
